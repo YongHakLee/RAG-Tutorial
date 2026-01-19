@@ -1,0 +1,16 @@
+[project]
+name = "rag-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.1",
+    "langchain>=1.2.6",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.1",
+    "langchain-huggingface>=1.2.0",
+    "langchain-ollama>=1.0.1",
+    "pypdf>=6.6.0",
+    "sentence-transformers>=5.2.0",
+]
